@@ -1,3 +1,8 @@
 amp-img {
     background-color: grey;
   }
+
+.mms-container {
+    max-width: 1188px;
+    margin: 0 auto; 
+}
