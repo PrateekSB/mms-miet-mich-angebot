@@ -9,6 +9,10 @@ amp-img {
     flex-wrap: wrap;
 }
 
+.mms-top-banner {
+    margin-bottom: 20px;
+}
+
 .section-item {
     display: flex;
     flex-direction: column;
