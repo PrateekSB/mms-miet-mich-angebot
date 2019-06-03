@@ -45,3 +45,46 @@ amp-img {
 .section-item-text > h2 {
     color: white;
 }
+
+.mms-container .faq-header{
+    color: #fff;
+    font-size: 7vw !important;
+    padding: 10px;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+    font-family: "MMHeadlineProWeb-regular" !important;
+    background: #df0000;
+}
+
+
+amp-accordion section h4, h3 {
+    background: #df0000 !important;
+    color: #fff;
+    font-family: "MMHeadlineProWeb-regular" !important;
+    border-top: 2px solid #fff;
+    font-size: 20px;
+    padding: 10px 10px 12px 50px;
+}
+
+amp-accordion section p{
+    display: block;
+    font-family: "MMTextProWeb-regular";
+    font-size: 16px;
+    line-height: 1.25;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+.section-steps{
+    background-color: #df0000;
+
+}
+.section-steps h1{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 5px solid #fff;
+    font-size: 7vw !important;
+}
