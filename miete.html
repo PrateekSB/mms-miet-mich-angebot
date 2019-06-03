@@ -4,8 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="This is the AMP Boilerplate.">
+    
     <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
     <link rel="preload" href="./public/images/topimage.jpg" as="image">
+    <link rel="preload" href="./public/images/topimage_mobile.jpg" as="image">
+    <link rel="preload" href="./public/images/banner_1.jpg" as="image">
+    <link rel="preload" href="./public/images/banner_1_mobile.jpg" as="image">
+    <link rel="preload" href="./public/images/bottom_steps.png" as="image">
+    <link rel="preload" href="./public/images/bottomsection1.jpg" as="image">
+    <link rel="preload" href="./public/images/bottomsection2.jpg" as="image">
+    <link rel="preload" href="./public/images/bottomsection3.jpg" as="image">
+    <link rel="preload" href="./public/images/bottomsection4.jpg" as="image">
+    <link rel="preload" href="./public/images/bottomsection5.jpg" as="image">
+    <link rel="preload" href="./public/images/bottomsection6.jpg" as="image">
+
     <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <!-- Import other AMP Extensions here -->
@@ -22,8 +34,30 @@
 </head>
 <body>
     <div class="mms-container">
-        <amp-img src="./public/images/topimage.jpg" alt="TopBanner" height="334" width="1188" layout="responsive"></amp-img>
-        <amp-img src="./public/images/banner_1_image" alt="" ></amp-img>
+        <div class="mms-top-banner">
+            <amp-img media="(min-width: 480px)" src="./public/images/topimage.jpg" alt="TopBanner" height="334" width="1188" layout="responsive"></amp-img>
+            <amp-img media="(max-width: 479px)" src="./public/images/topimage_mobile.jpg" alt="TopBannerMobile" height="296" width="640" layout="responsive" ></amp-img>
+        </di>
+        <div class="mms-banner-one">
+            <amp-img media="(min-width: 480px)" src="./public/images/banner_1.jpg" alt="Banner1" height="130" width="1188" layout="responsive"></amp-img>
+            <amp-img media="(max-width: 479px)" src="./public/images/banner_1_mobile.jpeg" alt="Banner1Mobile" height="215" width="640" layout="responsive" ></amp-img>
+        </div>
+        <h1 class="mms-text-one">In 5 Schritten zum Miet-Produkt - so einfach geht's</h1>
+        <div class="mms-steps">
+            <amp-img media="(min-width: 480px)" src="./public/images/bottom_steps.png" alt="Banner1" height="373" width="1188" layout="responsive"></amp-img>
+        </div>
+        <div>
+            <div>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection1.jpg" alt="Banner1" height="210" width="386"></amp-img>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection2.jpg" alt="Banner1" height="210" width="386"></amp-img>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection3.jpg" alt="Banner1" height="210" width="386"></amp-img>
+            </div>
+            <div>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection4.jpg" alt="Banner1" height="210" width="386"></amp-img>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection5.jpg" alt="Banner1" height="210" width="386"></amp-img>
+                <amp-img media="(min-width: 480px)" src="./public/images/bottomsection6.jpg" alt="Banner1" height="210" width="386"></amp-img>
+            </div>
+        </div>
     </div>
 </body>
 </html>
